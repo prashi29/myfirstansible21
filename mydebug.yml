@@ -17,6 +17,6 @@
 
   - name: install tree
     apt:
-     name: wget
+     name: tree
      state: present
-    when: myfirsttaskresult.stderr !=""    
+    when: myfirsttaskresult.stderr !="" 
