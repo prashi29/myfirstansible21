@@ -7,7 +7,7 @@
     register: myfirsttaskresult
   - name: i want to display fisrt tsk result
     debug:
-      msg: "{{myfirsttaskresult}}"
+       msg: "{{myfirsttaskresult}}"
 
   - name: install git
     apt:
