@@ -5,4 +5,4 @@
 - name: install webserver
   apt:
     name: apache2
-    satte: present
+    state: present
