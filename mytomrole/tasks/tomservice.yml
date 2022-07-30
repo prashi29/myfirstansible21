@@ -1,0 +1,5 @@
+---
+- name: copy mytomcat service into ansible node side
+  template:
+       src: template/tomhost.j2
+       dest: /etc/systemd/system/tomcat.service

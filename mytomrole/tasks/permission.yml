@@ -1,0 +1,6 @@
+---
+- name: tamacat owenership
+  execute: sudo chown -R tomcat:tomcat /opt/tomcat/
+
+- name: change to execute
+  execute: sudo chmod -R u+x /opt/tomcat/bin
